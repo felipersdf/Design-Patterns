@@ -19,4 +19,11 @@ public class Fita {
     public void setCodigoDePrevo(Tipo codigoDePreco) {
         this.codigoDePreco = codigoDePreco;
     }
+
+    public boolean isLancamento(){
+        if (this.codigoDePreco == Tipo.lancamento){
+            return true;
+        } else
+            return false;
+    }
 }

@@ -27,8 +27,7 @@ public class Cliente {
             // trata de pontos de alugador frequente
             pontosDeAlugadorFrequente++;
             // adiciona bonus para aluguel de um lançamento por pelo menos 2 dias
-            if (al.getFita().getCodigoDePreco() == Tipo.lancamento
-                    && al.getDiasAlugada() > 1) {
+            if (al.getFita().isLancamento() && al.getDiasAlugada() > 1) {
                 pontosDeAlugadorFrequente++;
             }
             // mostra valores de cada aluguel

@@ -11,14 +11,12 @@ public class Locadora {
         Aluguel aluguel1 = new Aluguel(fita1, 5);
         Aluguel aluguel2 = new Aluguel(fita2, 3);
         Aluguel aluguel3 = new Aluguel(fita3, 2);
-        
-        
+
         cli1.adicionaAluguel(aluguel1);
         cli1.adicionaAluguel(aluguel2);
-        cli1.adicionaAluguel(aluguel3);
 
         cli2.adicionaAluguel(aluguel3);
-        cli2.adicionaAluguel(aluguel2);
+        cli2.adicionaAluguel(aluguel1);
 
         System.out.println(cli1.extrato());
         System.out.println(cli2.extrato());
