@@ -1,6 +1,6 @@
-#Design Patterns
+# Design Patterns
 
-###Creational Patterns
+### Creational Patterns
 
  - Factory Method -> [Code](https://github.com/felipersdf/Design-Patterns/tree/master/FactoryMethod)
  - Abstract Factory -> [Code](https://github.com/felipersdf/Design-Patterns/tree/master/AbstractFactoryMaze) - [Code2](https://github.com/felipersdf/Design-Patterns/tree/master/AbstractFactoryCarro)
@@ -8,7 +8,7 @@
  - Prototype -> [Code](https://github.com/felipersdf/Design-Patterns/tree/master/PrototypeShape)
  - Singleton 
 
-###Structural Patterns
+### Structural Patterns
 
 - Adapter -> [Code](https://github.com/felipersdf/Design-Patterns/tree/master/Adapter)
 - Bridge -> [Code](https://github.com/felipersdf/Design-Patterns/tree/master/BridgeExercise)
@@ -19,7 +19,7 @@
 - Proxy 
 
 
-###Behavioral Patterns
+### Behavioral Patterns
 
 - Chain of Responsibility 
 - Command
